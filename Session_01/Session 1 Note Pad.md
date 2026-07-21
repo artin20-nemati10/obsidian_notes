@@ -88,7 +88,7 @@ Sprint 2
 | *Project mgr*  |              |        *Noc*         |
 | *Product mgr*  |              |      *DB Admin*      |
 |                |              |     *Cloud Eng*      |
-*SRE = Site Reliability Engineer*
+*SRE = Site Reliability Engeneer*
 ## DevOps Pipeline
 
 #Pipeline
@@ -112,6 +112,7 @@ Sprint 2
 | *Workflow planning* | *shared source code repository* |    *Error Detection*     |     *Performing*     |
 |    *Task Lists*     |        *Version control*        |    *Automated tests*     |    *Load testing*    |
 |      *Sprints*      |                                 |                          | *Continuous testing* |
+=======
 
 | ***Plan***        | ***Develop***                 | ***Build***            | ***Test***         |
 | ----------------- | ----------------------------- | ---------------------- | ------------------ |
@@ -119,6 +120,7 @@ Sprint 2
 | *Workflow planning* | *shared source code repository* | *Error Detection*        | *Performing*         |
 | *Task Lists*        | *Version control*               | *Automated tests*        | *Load testing*       |
 | *Sprints*           |                               |                        | *Continuous testing* |
+
 
 ---
 ### **Ops** *(CD) (Deploy Process)*:
@@ -131,5 +133,4 @@ Sprint 2
 |                  |     *Multi Level*      |                    |  *Productivity*   |
 
 ---
-
-hello
+Love you
