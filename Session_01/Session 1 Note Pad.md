@@ -133,6 +133,3 @@ Sprint 2
 |                  |     *Multi Level*      |                    |  *Productivity*   |
 
 ---
-Suiiiiiiiiiii
-
-Aaaaaaa
