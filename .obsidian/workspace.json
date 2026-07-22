@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a96e2404664ef706",
@@ -203,10 +202,10 @@
   "active": "46044371b621b968",
   "lastOpenFiles": [
     "DevOps/Session 1/Session 1 Note Pad.md",
+    "Network +/Part 1.md",
     "DevOps/Session_01/Session 1 Note Pad 1.md",
     "DevOps/Session 1",
     "DevOps/Session_01/Untitled",
-    "Network +/Part 1.md",
     "conflict-files-obsidian-git.md",
     "DevOps/Session_02/Session 2 Note Pad.md",
     "Untitled.md",
