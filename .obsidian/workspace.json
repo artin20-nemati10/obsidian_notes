@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Session 1/Session 1 Note Pad.md",
+                "file": "Network +/Part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 1 Note Pad"
+              "title": "Part 1"
             }
           }
         ]
@@ -184,12 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a13ae236fc1f77d",
+  "active": "46044371b621b968",
   "lastOpenFiles": [
+    "DevOps/Session 1/Session 1 Note Pad.md",
     "DevOps/Session 3/Session 3 Note Pad.md",
     "DevOps/Session_01/Session 1 Note Pad.md",
     "DevOps/Session 1/test.md",
-    "DevOps/Session 1/Session 1 Note Pad.md",
     "DevOps/Session 1",
     "DevOps/Session_01/test.md",
     "DevOps/Session_01",
