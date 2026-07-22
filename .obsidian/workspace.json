@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Part 1.md",
+                "file": "DevOps/Session_01/Session 1 Note Pad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 1"
+              "title": "Session 1 Note Pad"
             }
           }
         ]
@@ -186,9 +186,9 @@
   },
   "active": "00c01079f9eb85d3",
   "lastOpenFiles": [
+    "Network +/Part 1.md",
     "DevOps/Session_01/Session 1 Note Pad.md",
     "Untitled.md",
-    "Network +/Part 1.md",
     "Network +",
     "DevOps",
     "Untitled.base",
