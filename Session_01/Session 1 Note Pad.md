@@ -105,12 +105,22 @@ Sprint 2
 ---
 ### **Dev** *(CI) (Build Process)*:
 
+<<<<<<< HEAD
 |     ***Plan***      |          ***Develop***          |       ***Build***        |      ***Test***      |
 | :-----------------: | :-----------------------------: | :----------------------: | :------------------: |
 |   *Requirements*    |             *Code*              | *Continuous integration* |        *Uat*         |
 | *Workflow planning* | *shared source code repository* |    *Error Detection*     |     *Performing*     |
 |    *Task Lists*     |        *Version control*        |    *Automated tests*     |    *Load testing*    |
 |      *Sprints*      |                                 |                          | *Continuous testing* |
+=======
+
+| ***Plan***        | ***Develop***                 | ***Build***            | ***Test***         |
+| ----------------- | ----------------------------- | ---------------------- | ------------------ |
+| *Requirements*      | *Code*                          | *Continuous integration* | *Uat*                |
+| *Workflow planning* | *shared source code repository* | *Error Detection*        | *Performing*         |
+| *Task Lists*        | *Version control*               | *Automated tests*        | *Load testing*       |
+| *Sprints*           |                               |                        | *Continuous testing* |
+>>>>>>> origin/main
 
 ---
 ### **Ops** *(CD) (Deploy Process)*:
@@ -123,6 +133,4 @@ Sprint 2
 |                  |     *Multi Level*      |                    |  *Productivity*   |
 
 ---
-
-
-
+Suiiiiiiiiiii
