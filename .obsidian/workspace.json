@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session_01/Session 1 Note Pad.md",
-                "mode": "preview",
+                "file": "Session_01/GAy.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 1 Note Pad"
+              "title": "GAy"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session_01/Session 1 Note Pad.md",
+                "file": "Session_01/GAy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Session 1 Note Pad"
+              "title": "Backlinks for GAy"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session_01/Session 1 Note Pad.md",
+                "file": "Session_01/GAy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Session 1 Note Pad"
+              "title": "Outgoing links from GAy"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session_01/Session 1 Note Pad.md",
+                "file": "Session_01/GAy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Session 1 Note Pad"
+              "title": "Outline of GAy"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "00c01079f9eb85d3",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Session_01/Session 1 Note Pad.md",
+    "Session_01/GAy.md",
+    "conflict-files-obsidian-git.md",
     "Session_02/Session 2 Note Pad.md"
   ]
 }
