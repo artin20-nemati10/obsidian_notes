@@ -28,10 +28,5 @@
   "file-recovery": true,
   "publish": false,
   "sync": true,
-<<<<<<< HEAD
-  "bases": true,
-  "webviewer": false
-=======
   "bases": true
->>>>>>> origin/main
 }
