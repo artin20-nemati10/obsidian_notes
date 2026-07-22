@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Session_02/Session 2 Note Pad.md",
+            "file": "DevOps/Session_01/Session 1 Note Pad.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,10 +171,13 @@
   },
   "active": "d1f492c17644e4f6",
   "lastOpenFiles": [
-    "DevOps/Session_02/Session 2 Note Pad.md",
-    "Session 1 Note Pad.md",
+    "DevOps/Session_01/Session 1 Note Pad.md",
     "Network +/Part 1.md",
+    "Session 1 Note Pad.md",
+    "/Session 1 Note Pad.md",
+    "DevOps/Session_02/Session 2 Note Pad.md",
     "Session_01/Session 1 Note Pad.md",
+    "/DevOps/Session_02/Session 1 Note Pad.md",
     "/Network +/Part 1.md",
     "/DevOps/Session_02/Session 2 Note Pad.md",
     "Network +",
