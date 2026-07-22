@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session 1 Note Pad.md",
+                "file": "DevOps/Session_01/Session 1 Note Pad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Session 1 Note Pad"
             }
+          },
+          {
+            "id": "cb92cb4692c19b02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network +/Part 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Part 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,10 +184,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1f492c17644e4f6",
+  "active": "cb92cb4692c19b02",
   "lastOpenFiles": [
-    "DevOps/Session_01/Session 1 Note Pad.md",
+    "conflict-files-obsidian-git.md",
     "Network +/Part 1.md",
+    "DevOps/Session_01/Session 1 Note Pad.md",
     "Session 1 Note Pad.md",
     "/Session 1 Note Pad.md",
     "DevOps/Session_02/Session 2 Note Pad.md",
@@ -196,7 +212,6 @@
     "Session_01/GAy.md",
     "/Session_01/GAy.md",
     "/Session_01/Session 1 Note Pad.md",
-    "conflict-files-obsidian-git.md",
     "pul.md",
     "git.md"
   ]
