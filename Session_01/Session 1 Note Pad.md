@@ -105,14 +105,14 @@ Sprint 2
 ---
 ### **Dev** *(CI) (Build Process)*:
 
-<<<<<<< HEAD
+
 |     ***Plan***      |          ***Develop***          |       ***Build***        |      ***Test***      |
 | :-----------------: | :-----------------------------: | :----------------------: | :------------------: |
 |   *Requirements*    |             *Code*              | *Continuous integration* |        *Uat*         |
 | *Workflow planning* | *shared source code repository* |    *Error Detection*     |     *Performing*     |
 |    *Task Lists*     |        *Version control*        |    *Automated tests*     |    *Load testing*    |
 |      *Sprints*      |                                 |                          | *Continuous testing* |
-=======
+
 
 | ***Plan***        | ***Develop***                 | ***Build***            | ***Test***         |
 | ----------------- | ----------------------------- | ---------------------- | ------------------ |
@@ -134,3 +134,5 @@ Sprint 2
 
 ---
 Love you
+
+Drake is 6 god
