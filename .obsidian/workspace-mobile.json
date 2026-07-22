@@ -25,18 +25,17 @@
             "id": "cb92cb4692c19b02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Network +/Part 1.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Session 1 Note Pad.md",
+                "bFile": "Session 1 Note Pad.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Part 1"
+              "icon": "git-pull-request",
+              "title": "Diff: Session 1 Note Pad"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +159,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Session_01/Session 1 Note Pad.md",
+            "file": "DevOps/Session_01/Session 1 Note Pad.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -168,9 +167,19 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "1fdf7df823e20d96",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,12 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb92cb4692c19b02",
+  "active": "d1f492c17644e4f6",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Network +/Part 1.md",
     "DevOps/Session_01/Session 1 Note Pad.md",
+    "Network +/Part 1.md",
     "Session 1 Note Pad.md",
+    "conflict-files-obsidian-git.md",
     "/Session 1 Note Pad.md",
     "DevOps/Session_02/Session 2 Note Pad.md",
     "Session_01/Session 1 Note Pad.md",
