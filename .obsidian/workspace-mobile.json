@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Session_01/Session 1 Note Pad.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "DevOps",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -100,7 +100,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "345ffee412938ba6",
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Session_01/Session 1 Note Pad.md",
+            "file": "Session_02/Session 2 Note Pad.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,12 +171,15 @@
   },
   "active": "d1f492c17644e4f6",
   "lastOpenFiles": [
+    "Session_02/Session 2 Note Pad.md",
+    "Session_01/Session 1 Note Pad.md",
+    "Session_01/Akbar panahi.md",
+    "/Session_01/Akbar panahi.md",
+    "Untitled.base",
     "Session_01/GAy.md",
     "/Session_01/GAy.md",
     "/Session_01/Session 1 Note Pad.md",
     "/Session_01",
-    "Session_02/Session 2 Note Pad.md",
-    "Session_01/Session 1 Note Pad.md",
     "conflict-files-obsidian-git.md",
     "New Text Document.txt",
     "/New Text Document.txt",

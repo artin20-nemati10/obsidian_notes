@@ -58,15 +58,15 @@ Sprint 2
 12. Release
 13. Repeats
 
-| _Advantages_                                                           |
-| ---------------------------------------------------------------------- |
-| Customer requirements are more clear beacause of the constant feedback |
-| Product is delivered much faster as compared to Waterfall model        |
+| **_Advantages_**                                                         |
+| ------------------------------------------------------------------------ |
+| *Customer requirements are more clear beacause of the constant feedback* |
+| *Product is delivered much faster as compared to Waterfall model*        |
 
-| _Disadvantages_                                                            |
-| -------------------------------------------------------------------------- |
-| Product get tested only on developer computers & not on production systems |
-| Developers  & Operations team-work will be broken                          |
+| **_Disadvantages_**                                                          |
+| ---------------------------------------------------------------------------- |
+| *Product get tested only on developer computers & not on production systems* |
+| *Developers  & Operations team-work will be broken*                          |
 
 # Devops
 
@@ -88,7 +88,8 @@ Sprint 2
 | *Project mgr*  |              |        *Noc*         |
 | *Product mgr*  |              |      *DB Admin*      |
 |                |              |     *Cloud Eng*      |
-*SRE = Site Reliability Engeneer*
+>[!tip]
+*SRE = Site Reliability Engineer*
 ## DevOps Pipeline
 
 #Pipeline
@@ -125,6 +126,8 @@ Sprint 2
 ---
 ### **Ops** *(CD) (Deploy Process)*:
 
+
+
 |   **Release**    |       **Deploy**       |    **Operate**     |    **Monitor**    |
 | :--------------: | :--------------------: | :----------------: | :---------------: |
 |   *Repository*   | *Blue_green Strategy*  |   *Environment*    | *Infrastructure*  |
@@ -132,6 +135,4 @@ Sprint 2
 | *Micro-Services* | *Automated deployment* | *Recovery Logging* | *Data Collection* |
 |                  |     *Multi Level*      |                    |  *Productivity*   |
 
----
-
-
+[[Session 2 Note Pad|Next Session]]
