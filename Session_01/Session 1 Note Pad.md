@@ -79,15 +79,15 @@ Sprint 2
 **DevOps addressed the gap between Developers & Operation**
 
 
-| ***Develop*** | ***DevOps*** | ***Infrastructure*** |
-| ------------- | ------------ | -------------------- |
-| *Frontend*      | *SRE*          | *SysAdmin*             |
-| *Backend*       | *DevNet*       | *Virtualization*       |
-| *Test QA*       | *DevSecOps*    | *Network*              |
-| *Scrum master*  |              | *Security*             |
-| *Project mgr*   |              | *Noc*                  |
-| *Product mgr*   |              | *DB Admin*             |
-|               |              | *Cloud Eng*            |
+| ***Develop***  | ***DevOps*** | ***Infrastructure*** |
+| :------------: | :----------: | :------------------: |
+|   *Frontend*   |    *SRE*     |      *SysAdmin*      |
+|   *Backend*    |   *DevNet*   |   *Virtualization*   |
+|   *Test QA*    | *DevSecOps*  |      *Network*       |
+| *Scrum master* |              |      *Security*      |
+| *Project mgr*  |              |        *Noc*         |
+| *Product mgr*  |              |      *DB Admin*      |
+|                |              |     *Cloud Eng*      |
 *SRE = Site Reliability Engeneer*
 ## DevOps Pipeline
 
@@ -105,22 +105,22 @@ Sprint 2
 ---
 ### **Dev** *(CI) (Build Process)*:
 
-| ***Plan***        | ***Develop***                 | ***Build***            | ***Test***         |
-| ----------------- | ----------------------------- | ---------------------- | ------------------ |
-| *Requirements*      | *Code*                          | *Continuous integration* | *Uat*                |
-| *Workflow planning* | *shared source code repository* | *Error Detection*        | *Performing*         |
-| *Task Lists*        | *Version control*               | *Automated tests*        | *Load testing*       |
-| *Sprints*           |                               |                        | *Continuous testing* |
+|     ***Plan***      |          ***Develop***          |       ***Build***        |      ***Test***      |
+| :-----------------: | :-----------------------------: | :----------------------: | :------------------: |
+|   *Requirements*    |             *Code*              | *Continuous integration* |        *Uat*         |
+| *Workflow planning* | *shared source code repository* |    *Error Detection*     |     *Performing*     |
+|    *Task Lists*     |        *Version control*        |    *Automated tests*     |    *Load testing*    |
+|      *Sprints*      |                                 |                          | *Continuous testing* |
 
 ---
 ### **Ops** *(CD) (Deploy Process)*:
 
-| **Release**          | **Deploy**                 | **Operate**            | **Monitor**           |
-| ---------------- | ---------------------- | ------------------ | ----------------- |
-| *Repository*     | *Blue_green Strategy*  | *Environment*      | *Infrastructure*  |
-| *Schedule Plan*  | *Configuration*        | *Notification*     | *Feedback*        |
+|   **Release**    |       **Deploy**       |    **Operate**     |    **Monitor**    |
+| :--------------: | :--------------------: | :----------------: | :---------------: |
+|   *Repository*   | *Blue_green Strategy*  |   *Environment*    | *Infrastructure*  |
+| *Schedule Plan*  |    *Configuration*     |   *Notification*   |    *Feedback*     |
 | *Micro-Services* | *Automated deployment* | *Recovery Logging* | *Data Collection* |
-|                  | *Multi Level*          |                    | *Productivity*    |
+|                  |     *Multi Level*      |                    |  *Productivity*   |
 
 ---
 
