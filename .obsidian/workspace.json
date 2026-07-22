@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Session_01/Session 1 Note Pad.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -180,9 +180,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "00c01079f9eb85d3",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Session_01/Session 1 Note Pad.md",
+    "Session_02/Session 2 Note Pad.md"
+  ]
 }
