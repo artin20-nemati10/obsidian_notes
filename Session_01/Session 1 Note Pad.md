@@ -112,7 +112,6 @@ Sprint 2
 | *Workflow planning* | *shared source code repository* |    *Error Detection*     |     *Performing*     |
 |    *Task Lists*     |        *Version control*        |    *Automated tests*     |    *Load testing*    |
 |      *Sprints*      |                                 |                          | *Continuous testing* |
-=======
 
 | ***Plan***        | ***Develop***                 | ***Build***            | ***Test***         |
 | ----------------- | ----------------------------- | ---------------------- | ------------------ |
@@ -120,7 +119,7 @@ Sprint 2
 | *Workflow planning* | *shared source code repository* | *Error Detection*        | *Performing*         |
 | *Task Lists*        | *Version control*               | *Automated tests*        | *Load testing*       |
 | *Sprints*           |                               |                        | *Continuous testing* |
-
+>>>>>>> origin/main
 
 ---
 ### **Ops** *(CD) (Deploy Process)*:
@@ -133,4 +132,4 @@ Sprint 2
 |                  |     *Multi Level*      |                    |  *Productivity*   |
 
 ---
-Suiiiiiiiiiii
+
