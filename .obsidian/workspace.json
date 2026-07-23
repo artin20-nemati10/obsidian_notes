@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Part 1.md",
+                "file": "DevOps/Session 2/Session 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 1"
+              "title": "Session 2"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a96e2404664ef706",
@@ -187,21 +186,25 @@
   },
   "active": "46044371b621b968",
   "lastOpenFiles": [
+    "DevOps/Session 1/Session 1.md",
+    "DevOps/Session 3/Session 3.md",
+    "DevOps/Session 2/Session 2.md",
+    "Network +/Session 1.md",
+    "Network +/Images/Tree Topology.png",
+    "Network +/Images/Tree Topology 1.png",
+    "Pasted image 20260722192447.png",
+    "DevOps/Session_01/Session 1 Note Pad.md",
+    "DevOps/Session_01",
+    "Pasted image 20260722144420.png",
     "Network +/Images/Star topology.png",
     "Network +/Images/Bus Topology_2.png",
     "Network +/Images/Bus Topology.png",
-    "Pasted image 20260722144420.png",
     "Network +/Images/Full Meash Topology.png",
     "Network +/Images",
     "Network +/New folder",
-    "DevOps/Session 1/Session 1 Note Pad.md",
-    "Network +/Part 1.md",
-    "DevOps/Session 3/Session 3 Note Pad.md",
-    "DevOps/Session_01/Session 1 Note Pad.md",
     "DevOps/Session 1/test.md",
     "DevOps/Session 1",
     "DevOps/Session_01/test.md",
-    "DevOps/Session_01",
     "DevOps/New folder",
     "DevOps/2/test.md",
     "DevOps/2/Session 1 Note Pad.md",
@@ -211,7 +214,6 @@
     "conflict-files-obsidian-git.md",
     "DevOps/Session_01/Session 1 Note Pad 1.md",
     "DevOps/Session_01/Untitled",
-    "DevOps/Session 2/Session 2 Note Pad.md",
     "Untitled.md",
     "Network +",
     "DevOps",

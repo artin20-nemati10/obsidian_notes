@@ -106,30 +106,31 @@ Sprint 2
 ### **Dev** *(CI) (Build Process)*:
 
 
-|     ***Plan***      |          ***Develop***          |       ***Build***        |      ***Test***      |
-| :-----------------: | :-----------------------------: | :----------------------: | :------------------: |
-|   *Requirements*    |             *Code*              | *Continuous integration* |        *Uat*         |
-| *Workflow planning* | *shared source code repository* |    *Error Detection*     |     *Performing*     |
-|    *Task Lists*     |        *Version control*        |    *Automated tests*     |    *Load testing*    |
-|      *Sprints*      |                                 |                          | *Continuous testing* |
+|       ***Plan***       |            ***Develop***            |         ***Build***          |       ***Test***        |
+| :--------------------: | :---------------------------------: | :--------------------------: | :---------------------: |
+|     *Requirements*     |               *Code*                | *Continuous <br>integration* |          *Uat*          |
+| *Workflow<br>planning* | *shared source <br>code repository* |     *Error<br>Detection*     |      *Performing*       |
+|      *Task Lists*      |        *Version <br>control*        |    *Automated <br>tests*     |     *Load testing*      |
+|       *Sprints*        |                                     |                              | *Continuous<br>testing* |
 
 
-| ***Plan***        | ***Develop***                 | ***Build***            | ***Test***         |
-| ----------------- | ----------------------------- | ---------------------- | ------------------ |
-| *Requirements*      | *Code*                          | *Continuous integration* | *Uat*                |
-| *Workflow planning* | *shared source code repository* | *Error Detection*        | *Performing*         |
-| *Task Lists*        | *Version control*               | *Automated tests*        | *Load testing*       |
-| *Sprints*           |                               |                        | *Continuous testing* |
+|       ***Plan***       |            ***Develop***            |         ***Build***         |        ***Test***        |
+| :--------------------: | :---------------------------------: | :-------------------------: | :----------------------: |
+|     *Requirements*     |               *Code*                | *Continuous<br>integration* |          *Uat*           |
+| *Workflow<br>planning* | *shared source <br>code repository* |    *Error <br>Detection*    |       *Performing*       |
+|      *Task Lists*      |          *Version control*          |    *Automated<br>tests*     |      *Load testing*      |
+|       *Sprints*        |                                     |                             | *Continuous <br>testing* |
 
 
 ---
 ### **Ops** *(CD) (Deploy Process)*:
 
-|   **Release**    |       **Deploy**       |    **Operate**     |    **Monitor**    |
-| :--------------: | :--------------------: | :----------------: | :---------------: |
-|   *Repository*   | *Blue_green Strategy*  |   *Environment*    | *Infrastructure*  |
-| *Schedule Plan*  |    *Configuration*     |   *Notification*   |    *Feedback*     |
-| *Micro-Services* | *Automated deployment* | *Recovery Logging* | *Data Collection* |
-|                  |     *Multi Level*      |                    |  *Productivity*   |
+|     **Release**      |         **Deploy**         |      **Operate**       |     **Monitor**      |
+| :------------------: | :------------------------: | :--------------------: | :------------------: |
+|     *Repository*     |  *Blue_green<br>Strategy*  |     *Environment*      |   *Infrastructure*   |
+|  *Schedule<br>Plan*  |      *Configuration*       |     *Notification*     |      *Feedback*      |
+| *Micro-<br>Services* | *Automated <br>deployment* | *Recovery <br>Logging* | *Data<br>Collection* |
+|                      |       *Multi Level*        |                        |    *Productivity*    |
 
 ---
+[[Session 2|Next Session]]
