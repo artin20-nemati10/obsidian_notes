@@ -79,15 +79,15 @@ Sprint 2
 **DevOps addressed the gap between Developers & Operation**
 
 
-| ***Develop***  | ***DevOps*** | ***Infrastructure*** |
-| :------------: | :----------: | :------------------: |
-|   *Frontend*   |    *SRE*     |      *SysAdmin*      |
-|   *Backend*    |   *DevNet*   |   *Virtualization*   |
-|   *Test QA*    | *DevSecOps*  |      *Network*       |
-| *Scrum master* |              |      *Security*      |
-| *Project mgr*  |              |        *Noc*         |
-| *Product mgr*  |              |      *DB Admin*      |
-|                |              |     *Cloud Eng*      |
+|   ***Develop***    |  ***DevOps***   | ***Infrastructure*** |
+| :------------: | :---------: | :--------------: |
+|   *Frontend*   |    *SRE*    |    *SysAdmin*    |
+|   *Backend*    |  *DevNet*   | *Virtualization* |
+|   *Test QA*    | *DevSecOps* |    *Network*     |
+| *Scrum master* |             |    *Security*    |
+| *Project mgr*  |             |      *Noc*       |
+| *Product mgr*  |             |    *DB Admin*    |
+|                |             |   *Cloud Eng*    |
 *SRE = Site Reliability Engeneer*
 ## DevOps Pipeline
 

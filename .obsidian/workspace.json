@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Session 1/Session 1.md",
+                "file": "504 Essential Words/Lesson 1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 1"
+              "title": "Lesson 1"
             }
           }
         ],
@@ -201,14 +201,18 @@
   },
   "active": "db0223246c7ccbea",
   "lastOpenFiles": [
+    "Network +/Network Session 1.md",
+    "504 Essential Words/Lesson 1.md",
+    "DevOps/Session 1/Session 1.md",
+    "Untitled.base",
+    "Network +/Images/Bus Topology_2.png",
+    "504 Essential Words",
     "DevOps/Session 3/Session 3.md",
     "Usual Notes/Contractions.md",
     "DevOps/Session 2/Session 2.md",
     "DevOps/Session 4/Session 4.md",
     "DevOps/Session 4",
     "Usual Notes",
-    "DevOps/Session 1/Session 1.md",
-    "Network +/Network Session 1.md",
     "Network +/Images/Tree Topology.png",
     "Network +/Images/Tree Topology 1.png",
     "Pasted image 20260722192447.png",
@@ -216,7 +220,6 @@
     "DevOps/Session_01",
     "Pasted image 20260722144420.png",
     "Network +/Images/Star topology.png",
-    "Network +/Images/Bus Topology_2.png",
     "Network +/Images/Bus Topology.png",
     "Network +/Images/Full Meash Topology.png",
     "Network +/Images",
@@ -228,11 +231,9 @@
     "DevOps/2/test.md",
     "DevOps/2/Session 1 Note Pad.md",
     "DevOps/2",
-    "DevOps/Session 3",
     "DevOps/Session_01/Session 1 Note Pad - Copy.md",
     "conflict-files-obsidian-git.md",
     "DevOps/Session_01/Session 1 Note Pad 1.md",
-    "DevOps/Session_01/Untitled",
     "Untitled.md",
     "Session_01/Akbar panahi.md",
     "Session_01/GAy.md"

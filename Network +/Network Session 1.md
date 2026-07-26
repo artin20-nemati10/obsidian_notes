@@ -82,7 +82,7 @@ Full Mesh Topology is the the first Networking model.
 
 ---
 
-## *What is the Term "***Intranet**", "**Extranet**" & "**Internet**"
+## *What is the Term "**Intranet**", "**Extranet**" & "**Internet**"
 
 - **Internet** ***:** The internet is a public network accessible to anyone*.
 
