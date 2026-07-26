@@ -78,4 +78,3 @@
 3. You have to be taller than 5'5" to qualify as a policeman in our town.
 
 [^1]: accept
-mew
