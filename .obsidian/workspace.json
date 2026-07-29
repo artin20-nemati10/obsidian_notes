@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Session 2/Session 2.md",
-                "mode": "source",
+                "file": "DevOps/Commands.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 2"
+              "title": "Commands"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "504 Essential Words/Lesson 1.md",
+                "file": "DevOps/Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 1"
+              "title": "Commands"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,17 +198,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db0223246c7ccbea",
+  "active": "46044371b621b968",
   "lastOpenFiles": [
-    "Network +/Network Session 1.md",
+    "DevOps/Session 3/Session 3.md",
+    "DevOps/Commands.md",
+    "DevOps/Session 2/Session 2.md",
+    "DevOps/Untitled",
+    "DevOps/Session 4/Untitled",
     "504 Essential Words/Lesson 1.md",
+    "Network +/Network Session 1.md",
     "DevOps/Session 1/Session 1.md",
     "Untitled.base",
     "Network +/Images/Bus Topology_2.png",
     "504 Essential Words",
-    "DevOps/Session 3/Session 3.md",
     "Usual Notes/Contractions.md",
-    "DevOps/Session 2/Session 2.md",
     "DevOps/Session 4/Session 4.md",
     "DevOps/Session 4",
     "Usual Notes",
@@ -227,10 +229,8 @@
     "DevOps/Session 1/test.md",
     "DevOps/Session 1",
     "DevOps/Session_01/test.md",
-    "DevOps/New folder",
     "DevOps/2/test.md",
     "DevOps/2/Session 1 Note Pad.md",
-    "DevOps/2",
     "DevOps/Session_01/Session 1 Note Pad - Copy.md",
     "conflict-files-obsidian-git.md",
     "DevOps/Session_01/Session 1 Note Pad 1.md",

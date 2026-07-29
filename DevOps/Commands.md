@@ -1,15 +1,3 @@
-
-# Shell Introduction
-#shell_introduction
-- Shell is text-based tool for communicating between User & Kernel
-## Various types of shells available
- - Bourne Shell (sh)
- - Bourne-Again Shell (Bash)
- - C Shell (csh)
- - Z Shell (zsh)
-# Commands
-#session3commands
-
 |      **Command**      |             **Work**              |
 | :-------------------: | :-------------------------------: |
 | **ip address (ip a)** |           *IP Address*            |
@@ -27,8 +15,9 @@
 |         nano          |        Make and Edit File         |
 |         alias         |      a shortcut to a command      |
 |         sudo          |          as Super Admin           |
-### LS
 
+
+### LS
 | Option | Work                             |
 | ------ | -------------------------------- |
 | **ls** | *files in the current directory* |
@@ -39,22 +28,3 @@
 | -r     | Reverse the sort                 |
 | -S     | Sort by size                     |
 | -lrth  | ---                              |
-
-
-
-# Directories
-#directories
-
-|             **Directory**             |                      **Content**                      |
-| :-----------------------------------: | :---------------------------------------------------: |
-|              */* **bin**              |       *Binaries, All the run files we install*        |
-|              */* **etc**              |                  *App configuration*                  |
-|              */* **lib**              |                  *App Library File*                   |
-| */* **usr** */* **local** */* **bin** | *if user 1 makes a file in it just user 1 can use it* |
-|             */* **sbin**              |                    *System Files*                     |
-|             */* **boot**              |                    *Kernel Files*                     |
-|                 /mnt                  |                   Manual Disk Mount                   |
-|                /media                 |                  For removable disk                   |
-
-[[Session 2|Previous Session]]
-[[Session 4|Next Session]]
