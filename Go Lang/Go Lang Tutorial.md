@@ -58,6 +58,4 @@ fmt.Printf("some text %s with variable \n", my variable)
 
 - Plus some annotation verbs or (place holder) that tells the fmt functions how to format the variable passed in.
 
-Hello
-
 
