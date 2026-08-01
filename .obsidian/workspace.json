@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go Lang/Go Lang Tutorial.md",
+                "file": "Python/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go Lang Tutorial"
+              "title": "Python"
             }
           },
           {
@@ -200,9 +200,11 @@
   },
   "active": "46044371b621b968",
   "lastOpenFiles": [
+    "Go Lang/Go Lang Tutorial.md",
+    "Python/Python.md",
+    "Python",
     "Network +/Network Session 1.md",
     "DevOps/Session 4/Session 4.md",
-    "Go Lang/Go Lang Tutorial.md",
     "DevOps/Session 3/Session 3.md",
     "Go Lang",
     "Usual Notes/Go lang",
@@ -227,7 +229,6 @@
     "Network +/Images/Star topology.png",
     "Network +/Images/Bus Topology.png",
     "Network +/Images/Full Meash Topology.png",
-    "Network +/Images",
     "DevOps/Session 1/test.md",
     "DevOps/Session_01/test.md",
     "DevOps/2/test.md",
