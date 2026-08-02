@@ -59,3 +59,33 @@ fmt.Printf("some text %s with variable \n", my variable)
 - Plus some annotation verbs or (place holder) that tells the fmt functions how to format the variable passed in.
 
 
+| Place holder | Work                     |
+| ------------ | ------------------------ |
+| %s           | For Variables            |
+| %v           | For Variables            |
+| %T           | For type of the variable |
+
+
+## 2 Basic Data Types
+#### Strings
+- For textual data defined with double quotes e.g. "This is a string"
+#### Integers
+- Representing whole numbers positive and negative.
+- There are many more numeric data types.
+
+### Go is a statically typed language
+- You need to tell Go Compiler the data types when declaring the variables.
+- Type Inference: But Go can infer the type when you assign a value.
+
+## Why so many different data types
+1. uint8 : Unsigned 8-bit integers (1 to 255)
+2. uint16 : Unsigned 16-bit integers (0 to 65535)
+3. uint32 : Unsigned 32-bit integers (1 to 4294967295t)
+4. unit64 : Unsigned 64-bit integers (0 to 18446744073709551615)
+5. int8 : Signed 8-bit integers (-128 to 127)
+6. int16 : Signed 16-bit integers (-32768 to 32767)
+7. int32 : Signed 32-bit integers (-2147483648 to 2147483647)
+8. int64 : Signed 64-bit integers (-9221172036854775808 to 9221172036854775807)
+
+
+
