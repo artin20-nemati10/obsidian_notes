@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Calculator.md",
+                "file": "Go Lang/Go Lang Tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculator"
+              "title": "Go Lang Tutorial"
             }
           },
           {
@@ -27,15 +27,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Session 1.md",
+                "file": "Python/Codes/Varification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Session 1"
+              "title": "Varification"
+            }
+          },
+          {
+            "id": "3a887981acd570a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Codes/Note Book.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note Book"
+            }
+          },
+          {
+            "id": "8312d54d41403a08",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Python/Images/tree_small.png"
+              },
+              "icon": "lucide-image",
+              "title": "tree_small"
+            }
+          },
+          {
+            "id": "7b1408a7480346c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Codes/Dictionary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dictionary"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -55,7 +96,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -178,12 +221,23 @@
               "icon": "lucide-list",
               "title": "Outline of Session 1 Note Pad"
             }
+          },
+          {
+            "id": "da820585357d90db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -198,48 +252,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46044371b621b968",
+  "active": "7b1408a7480346c6",
   "lastOpenFiles": [
-    "Python/Varification.md",
-    "Python/Calculator.md",
+    "Python/Codes/Seller Helper.md",
+    "Python/Codes/Dictionary.md",
+    "Python/Codes/Untitled",
+    "Python/Codes/Quadrant Founder.md",
+    "Python/Codes/Space Shooter.md",
+    "Python/Codes/Ping Pong.md",
+    "Python/Codes/Racing Game.md",
+    "Python/Codes/Varification.md",
+    "Python/Images/tree_small.png",
+    "Python/Images",
+    "Python/Codes/Images/Racing Game.md",
+    "Python/Codes/Images",
+    "Python/Images/land_grass.png",
+    "Python/Images/car_blue_3.png",
+    "Python/Images/car_red_3.png",
+    "Python/Codes/Note Book.md",
+    "Python/Codes/Snake.md",
+    "Python/Codes/Calculator.md",
+    "504 Essential Words/Lesson 1.md",
+    "Python/Codes",
+    "gitignore..md",
+    "Python",
     "Go Lang/Go Lang Tutorial.md",
-    "DevOps/Commands.md",
+    "Network +/Network Session 1.md",
     "DevOps/Session 4/Session 4.md",
     "DevOps/Session 3/Session 3.md",
-    "Python/Python.md",
-    "Python",
-    "Network +/Network Session 1.md",
     "Go Lang",
     "Usual Notes/Go lang",
+    "DevOps/Commands.md",
     "DevOps/Session 2/Session 2.md",
     "DevOps/Untitled",
     "DevOps/Session 4/Untitled",
-    "504 Essential Words/Lesson 1.md",
     "DevOps/Session 1/Session 1.md",
     "Untitled.base",
     "Network +/Images/Bus Topology_2.png",
-    "504 Essential Words",
     "Usual Notes/Contractions.md",
-    "DevOps/Session 4",
-    "Usual Notes",
     "Network +/Images/Tree Topology.png",
     "Network +/Images/Tree Topology 1.png",
     "Pasted image 20260722192447.png",
     "DevOps/Session_01/Session 1 Note Pad.md",
-    "DevOps/Session_01",
     "Pasted image 20260722144420.png",
     "Network +/Images/Star topology.png",
-    "Network +/Images/Bus Topology.png",
-    "Network +/Images/Full Meash Topology.png",
     "DevOps/Session 1/test.md",
     "DevOps/Session_01/test.md",
     "DevOps/2/test.md",
-    "DevOps/2/Session 1 Note Pad.md",
-    "DevOps/Session_01/Session 1 Note Pad - Copy.md",
-    "conflict-files-obsidian-git.md",
-    "DevOps/Session_01/Session 1 Note Pad 1.md",
-    "Untitled.md",
-    "Session_01/Akbar panahi.md",
-    "Session_01/GAy.md"
+    "DevOps/2/Session 1 Note Pad.md"
   ]
 }
