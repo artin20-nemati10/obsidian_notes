@@ -35,8 +35,8 @@ fmt.Println("Hello World)
 - Give variable a name & reference everywhere in the app.
 
 #### Benefits
-- [x] Update the value only once.
-- [x] Make our app more flexible.
+✔ Update the value only once.
+✔ Make our app more flexible.
 
 ##### example :
 
