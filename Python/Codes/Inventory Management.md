@@ -82,7 +82,7 @@ def open_inventory():
 
     inventory_window.title("Inventory Managment")
 
-    inventory_window.configue(bg="#EEF2FF")
+    inventory_window.configure(bg="#EEF2FF")
 
   
 
@@ -722,8 +722,6 @@ def login():
         window.withdraw()
 
         open_inventory()
-
-        print("MEow")
 
     else:
 
