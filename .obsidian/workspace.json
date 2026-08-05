@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Codes/Inventory Management.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inventory Management"
+              "title": "Untitled"
             }
           }
         ],
@@ -214,6 +214,9 @@
   },
   "active": "99f7b5abbe54f549",
   "lastOpenFiles": [
+    "Python/Codes/Dictionary.md",
+    "Untitled.md",
+    "Python/Codes/Inventory Management.md",
     "Meow.md",
     "Usual Notes/Symbols.md",
     "Python/Codes/To_DO_List.md",
@@ -223,8 +226,6 @@
     "Go Lang/Go Lang Tutorial.md",
     "Python/Codes/Note Book.md",
     "Python/Images/tree_small.png",
-    "Python/Codes/Dictionary.md",
-    "Python/Codes/Inventory Management.md",
     "Python/Codes/Untitled",
     "Python/Codes/Quadrant Founder.md",
     "Python/Codes/Space Shooter.md",
@@ -258,7 +259,6 @@
     "Pasted image 20260722192447.png",
     "DevOps/Session_01/Session 1 Note Pad.md",
     "Pasted image 20260722144420.png",
-    "Network +/Images/Star topology.png",
-    "DevOps/Session 1/test.md"
+    "Network +/Images/Star topology.png"
   ]
 }
