@@ -47,4 +47,27 @@
 | ***date > output***                      | *Redirect*                                         |
 | ***ping -c -s -i***                      | *Count, Size, Every\Second*                        |
 | ***echo $?***                            | *Exit Status Code For Last* <br>*Recently Command* |
+| ***cut -d "\|" -f 1,3 file***            | *Cut the delimiter by index*                       |
+| ***less***                               | *To page a file*                                   |
+| ***head -num***                          | *First num lines*                                  |
+| ***tail  -num***                         | *Last num lines*                                   |
+| ***-f***                                 | *Follow realtime reading*                          |
+| ***find***                               | *To find something in a directory*                 |
+| ***stat***                               | *Details of the file*                              |
+
+##### Find 
+
+| command                                  | Work                                               |
+| ---------------------------------------- | -------------------------------------------------- |
+| ***-name " "***                          | *Something you want to find*                       |
+| ***-type d,f***                          | *Type of the name*                                 |
+| ***-size***                              | *The size of the file*                             |
+| ***-mtime***                             | *Day*                                              |
+| ***-mmin***                              | *Minute*                                           |
+| ***-ls***                                | *Shows like ls command*                            |
+| ***-user***                              | *What user made it*                                |
+| ***!***                                  | *Not*                                              |
+| ***-o***                                 | *Or*                                               |
+| ***-a***                                 | *And*                                              |
+
 [[Session 4|Session_4_Commands]]
