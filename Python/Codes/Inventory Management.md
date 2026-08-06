@@ -13,7 +13,7 @@ import json
 
 from tkinter import ttk, messagebox
 
-  
+import matplotlib.pyplot as plt
 
 File_name = "users.json"
 
@@ -255,6 +255,32 @@ def open_inventory():
   
 
         tree.column(col, width=120, anchor="center")
+
+  
+
+    search_frame = tk.Frame(inventory_window, bg="#EEF2FF")
+
+    search_frame.pack(pady=5)
+
+  
+
+    tk.Label(
+
+        search_frame,
+
+        text="🔍 Search:",
+
+        bg="#EEF2FF",
+
+        font=("Segoe UI", 11, "bold")
+
+    ).pack(side="left")
+
+  
+
+    search_entry = tk.Entry(search_frame, font=("Segoe UI", 11), width=30)
+
+    search_entry.pack(side="left", padx=5)
 
   
 
@@ -566,23 +592,9 @@ def open_inventory():
 
                 detail_win.destroy()
 
-  
-
-  
-
             tk.Button(detail_win, text="Save", command=save_changes).pack(pady=10)
 
-  
-
-  
-
         notes = {}
-
-  
-
-        notes = {}
-
-  
 
   
 
@@ -1158,15 +1170,137 @@ def open_inventory():
 
         update()
 
+    def search(event=None):
+
+        keyword = search_entry.get().lower()
+
+  
+
+        tree.delete(*tree.get_children())
+
+  
+
+        for i in range(len(all_data["Commodity"])):
+
+  
+
+            if keyword in all_data["Commodity"][i].lower():
+
+  
+
+                tag = "evenrow" if i % 2 == 0 else "oddrow"
+
+  
+
+                tree.insert(
+
+                    "",
+
+                    "end",
+
+                    values=(
+
+                        i + 1,
+
+                        all_data["Commodity"][i],
+
+                        all_data["Number of purchase"][i],
+
+                        all_data["Number of sales"][i],
+
+                        all_data["Remain number"][i],
+
+                        all_data["Purchase price"][i],
+
+                        all_data["Sale price"][i],
+
+                        all_data["Total price purchase"][i],
+
+                        all_data["Total price sale"][i],
+
+                        all_data["Profit"][i],
+
+                    ),
+
+                    tags=(tag,)
+
+                )
+
+    search_entry.bind("<KeyRelease>", search)
+
+    def show_chart():
+
+        if len(all_data["Commodity"]) == 0:
+
+            messagebox.showwarning("Warning", "No data available")
+
+            return
+
+  
+
+        plt.figure(figsize=(8,5))
+
+        plt.bar(
+
+            all_data["Commodity"],
+
+            all_data["Profit"]
+
+        )
+
+  
+
+        plt.title("Profit of Commodities")
+
+        plt.xlabel("Commodity")
+
+        plt.ylabel("Profit ($)")
+
+        plt.xticks(rotation=45)
+
+  
+
+        plt.tight_layout()
+
+        plt.show()
+
+    tk.Button(
+
+    labels_frame,
+
+    text="➕ Add Commodity",
+
+    bg="#10B981",
+
+    fg="white",
+
+    font=("Segoe UI",10,"bold"),
+
+    padx=15,
+
+    pady=5,
+
+    command=new).pack(side="left",padx=5)
+
   
 
     tk.Button(
 
-        labels_frame, text="Add", command=new, anchor="center", font=("Arial", 10)).pack()
+    labels_frame,
 
-    tk.Button(
+    text="🗑 Delete",
 
-        labels_frame, text="Delete", command=delete,bg = "red", fg = "white", anchor="center", font=("Arial", 10)).pack(pady = 5)
+    bg="#EF4444",
+
+    fg="white",
+
+    font=("Segoe UI",10,"bold"),
+
+    padx=15,
+
+    pady=5,
+
+    command=delete).pack(side="left",padx=5)
 
     tree.bind("<Double-1>", click_on_commodity)
 
@@ -1176,6 +1310,21 @@ def open_inventory():
 
   
 
+    tk.Button(
+
+    labels_frame,
+
+    text="📊 Chart",
+
+    command=show_chart,
+
+    bg="#2563EB",
+
+    fg="white",
+
+    font=("Arial",10)).pack(pady=5)
+
+  
   
 
     file_menu.add_command(label="Save", command=None)
@@ -1226,7 +1375,11 @@ def open_inventory():
 
     update()
 
-  
+##########################################################################################
+
+##########################################################################################
+
+##########################################################################################
 
 def load_users():
 
