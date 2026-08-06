@@ -18,11 +18,17 @@ from tkinter import ttk, messagebox
 File_name = "users.json"
 
   
+
+current_user = None
+
+  
   
 
 def open_inventory():
 
     global inventory_window, tree
+
+  
 
     names = [
 
@@ -72,7 +78,9 @@ def open_inventory():
 
     }
 
-  
+    if users[current_user]["inventory"]:
+
+        all_data = users[current_user]["inventory"]
 
     inventory_window = tk.Toplevel(window)
 
@@ -250,9 +258,9 @@ def open_inventory():
 
                 name_val = new_values[1].strip()
 
-                bought_amount_val = int(new_values[2])
+                bought_amount_val = float(new_values[2])
 
-                sold_amount_val = int(new_values[3])
+                sold_amount_val = float(new_values[3])
 
                 bought_price_val = float(new_values[5])
 
@@ -294,7 +302,11 @@ def open_inventory():
 
   
 
-                update()  # جدول دوباره رفرش بشه
+                update()
+
+                users[current_user]["inventory"] = all_data
+
+                save_users(users)
 
                 detail_win.destroy()
 
@@ -506,13 +518,13 @@ def open_inventory():
 
             name_val = name.get().strip()
 
-            bought_amount_val = bought_amount.get().strip()
+            bought_amount_val = float(bought_amount.get().strip())
 
-            sold_amount_val = sold_amount.get().strip()
+            sold_amount_val = float(sold_amount.get().strip())
 
-            bought_price_val = bought_price.get().strip()
+            bought_price_val = float(bought_price.get().strip())
 
-            sold_price_val = Sold_price.get().strip()
+            sold_price_val = float(Sold_price.get().strip())
 
             if (
 
@@ -586,13 +598,29 @@ def open_inventory():
 
             all_data["Profit"].append(profit)
 
+            users[current_user]["inventory"] = all_data
+
+            save_users(users)
+
             update()
+
+            users[current_user]["inventory"] = all_data
+
+            save_users(users)
 
             root.destroy()
 
   
 
         tk.Button(root, text="Add to list", command=add).pack(pady=10)
+
+    def delete():
+
+        selected_item = tree.focus
+
+        if not selected_item:
+
+            pass
 
   
 
@@ -640,6 +668,8 @@ def open_inventory():
 
     inventory_window.config(menu=main_menu)
 
+    update()
+
   
   
 
@@ -684,17 +714,69 @@ def sign_up():
 
     if u in users:
 
-        messagebox.showerror("Error", "This account exists")
+        messagebox.showerror("This Username already exists", "Try another one")
 
         return
 
-    users[u] = p
+    if (
 
-    save_users(users)
+        not any(c.isalpha() for c in p)
+
+        or not any(c.isdigit() for c in p)
+
+        or not any(c.isalnum() for c in p)
+
+        or not any(c.isupper() for c in p)
+
+        or len(p) < 8
+
+    ):
+
+        messagebox.showerror(
+
+            "Weak Password",
+
+            "Password must contain letters, numbers, and special characters",
+
+        )
+
+        return
+
+    users[u] = {
+
+        "password": p,
+
+        "inventory": {
+
+            "Commodity": [],
+
+            "Number of purchase": [],
+
+            "Number of sales": [],
+
+            "Remain number": [],
+
+            "Purchase price": [],
+
+            "Sale price": [],
+
+            "Total price purchase": [],
+
+            "Total price sale": [],
+
+            "Profit": [],
+
+        },
+
+    }
+
+  
 
     if captcha_entry.get() == captcha_text and robot.get() == 1:
 
         messagebox.showinfo("OK", "Signed Up")
+
+    save_users(users)
 
   
   
@@ -709,7 +791,7 @@ def login():
 
         u in users
 
-        and users[u] == p
+        and users[u]["password"] == p
 
         and captcha_entry.get() == captcha_text
 
@@ -717,9 +799,15 @@ def login():
 
     ):
 
-        messagebox.showinfo("OK", "Loged In Succesfully")
+        global current_user
+
+        current_user = u
+
+        all_data = users[current_user]["inventory"]
 
         window.withdraw()
+
+  
 
         open_inventory()
 

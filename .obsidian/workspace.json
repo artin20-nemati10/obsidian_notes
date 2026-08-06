@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Python/Codes/Inventory Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Inventory Management"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "99f7b5abbe54f549",
   "lastOpenFiles": [
-    "Python/Codes/Dictionary.md",
     "Untitled.md",
+    "Python/Codes/Dictionary.md",
     "Python/Codes/Inventory Management.md",
     "Meow.md",
     "Usual Notes/Symbols.md",
