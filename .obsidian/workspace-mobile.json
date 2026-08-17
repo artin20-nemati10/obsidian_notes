@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Calculator.md",
-                "mode": "source",
+                "file": "DevOps/تفاوت Bash،Shell و Zsh در لینوکس چیست؟.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculator"
+              "title": "تفاوت Bash،Shell و Zsh در لینوکس چیست؟"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "504 Essential Words/Lesson 1.md",
+                "file": "Python/Codes/Inventory Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 1"
+              "title": "Inventory Management"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +51,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -194,52 +195,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66e24b3c4d6c72d6",
+  "active": "d1f492c17644e4f6",
   "lastOpenFiles": [
-    "Network +/Images/Bus Topology_2.png",
-    "gitignore..md",
-    "Python/Calculator.md",
-    "Python/Varification.md",
-    "Python/Python.md",
-    "/Python/Varification.md",
-    "/Python/Calculator.md",
-    "Go Lang/Go Lang Tutorial.md",
-    "/Python/Python.md",
-    "Python",
+    "504 Essential Words/Lesson 2.md",
+    "DevOps/تفاوت Bash،Shell و Zsh در لینوکس چیست؟.md",
+    "گ",
+    "Python/Codes/Inventory Management.md",
+    "Germany/Duolingo/Section 1 Unit 2.md",
+    "Germany/Duolingo/Section 1 Unit 1.md",
+    "DevOps/Session 5/Session 5.md",
+    "/Python/Codes/Inventory Management.md",
+    "/Python/Codes",
     "/Python",
-    "/Go Lang/Go Lang Tutorial.md",
-    "/Go Lang",
-    "DevOps/Session 3/Session 3.md",
-    "/DevOps/Session 4/Session 4.md",
-    "/DevOps/Session 4",
-    "/DevOps/Session 3/Session 3.md",
-    "/DevOps/Session 3",
-    "/DevOps/Commands.md",
-    "/DevOps",
-    "Go Lang",
-    "504 Essential Words/Lesson 1.md",
-    "DevOps/Commands.md",
-    "DevOps/Session 2/Session 2.md",
-    "DevOps/Session 1/Session 1.md",
-    "/Network +/Network Session 1.md",
-    "/Network +",
-    "/DevOps/Session 2/Session 2.md",
-    "/DevOps/Session 2",
-    "/504 Essential Words/Lesson 1.md",
-    "504 Essential Words",
-    "/DevOps/Session 1/Session 1.md",
-    "Usual Notes/Contractions.md",
+    "/Germany/Duolingo/Section 1 Unit 2.md",
+    "/Germany/Duolingo/Section 1 Unit 1.md",
+    "/DevOps/Session 5/Session 5.md",
+    "/504 Essential Words/Lesson 2.md",
+    "/504 Essential Words",
+    "Germany/Duolingo",
+    "Germany",
+    "/Germany/Duolingo",
+    "/Germany",
+    "/DevOps/Session 5",
+    "DevOps/Session 5",
     "DevOps/Session 4/Session 4.md",
-    "Network +/Network Session 1.md",
-    "/Usual Notes/Contractions.md",
-    "/Network +/Images/Tree Topology.png",
-    "Network +/Images/Tree Topology.png",
-    "Network +/Images/Bus Topology.png",
-    "Pasted image 20260722144420.png",
-    "Network +/Images/Star topology.png",
-    "Network +/Images/Full Meash Topology.png",
-    "/Pasted image 20260722144420.png",
-    "/Network +/Images/Star topology.png",
-    "/Network +/Images/Full Meash Topology.png"
+    "Untitled.md",
+    "/Untitled.md",
+    "DevOps/Session 1/Session 1.md",
+    "Meow.md",
+    "Python/Codes/Seller Helper.md",
+    "/Python/Codes/To_DO_List.md",
+    "Python/Codes/To_DO_List.md",
+    "/Meow.md",
+    "/DevOps/Session 4/Session 4.md",
+    "/DevOps/Commands.md",
+    "Python/Codes/Varification.md",
+    "Usual Notes/Contractions.md",
+    "Usual Notes/Symbols.md",
+    "/Usual Notes/Symbols.md",
+    "Python/Images/tree_small.png",
+    "Python/Images/land_grass.png",
+    "Python/Images/car_red_3.png",
+    "Python/Images/car_blue_3.png",
+    "/Python/Images/tree_small.png",
+    "/Python/Images/land_grass.png",
+    "/Python/Images/car_red_3.png",
+    "/Python/Images/car_blue_3.png",
+    "Network +/Images/Bus Topology_2.png",
+    "/Network +/Images/Tree Topology.png"
   ]
 }
