@@ -46,9 +46,53 @@
 1. My fingers quickly become numb in the frigid room.
 2. A numb feeling came over Mr. Massey as he read the telegram.
 3. When the nurse stuck a pin in my numb leg, I felt nothing.
+---
 ## Peril
 ### Definition
 - Danger
 #### Example
 1. the hunter was abandoned by the natives when he described the peril that lay ahead of them.
+2. There is great peril in trying to climb the mountain.
+3. Our library is filled with stories of perilous adventures.
+---
+## Recline
+### Definition
+- Lie down; Stretch out; Lean back.
+#### Example
+1. Richard likes to recline in front of the television set.
+2. After reclining on her right arm for an hour, Maxine found that it had become numb.
+3. My dog's greatest pleasure is to recline by the warm fireplace.
+---
+## Shriek
+### Definition
+- scream
+#### Example
+1. The maid of shrieked when she discovered the corpse.
+2. With a loud shriek, Ronald fled from the room.
+3. Facing the peril of the waterfall, the boatman let out a terrible shriek.
+---
+## Sinister
+### Definition
+- Evil; Wicked; Dishonest; Frightening
+#### Example
+1. The sinister plot to cheat the widow was uncovered by the police.
+2. When the bank guard spied the sinister-looking customer, he drew his fun.
+3. I was frightened by the sinister shadow at the bottom of the stairs.
+---
+## Tempt
+### Definition 
+- Try to get someone to do something; Test; Invite
+#### Example
+1. A banana split can tempt me to break my diet.
+2. The sight of beautiful Louise tempted the bachelor to change his mind about marriage.
+3. Your offer of a job tempts me greatly.
+---
+## Wager
+### Definition
+- Bet
+#### Example
+1. I lost a small wager on the Super Bowl.
+2. After winning the wager, Tex treated everyone to free drinks.
+3. It is legal to make a wager in the state of Nevada.
+
 
