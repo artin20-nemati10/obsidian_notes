@@ -1,6 +1,6 @@
 
-| Command                             | Work                                              |
-| ----------------------------------- | ------------------------------------------------- |
+| Command                             | Work                                                |
+| ----------------------------------- | --------------------------------------------------- |
 | ***command && command***            | *Start the commands step by step*                   |
 | ***find ... -exec cp {} loc \\;***  | *- - -*                                             |
 | ***find -mindepth***                | *Depth of the directory*                            |
@@ -22,7 +22,7 @@
 | ***grep "^root" file name***        | *search the word of the beginning of the line*      |
 | ***grep "root$"***                  | *At the end of the line*                            |
 | ***egrep "CBd#@&$"***               | *Make the special characters to regular*            |
-|                                     |                                                   |
+|                                     |                                                     |
 >[!tip] you can use some unique characters that is not in your text as a delimiter of sed
 
 # Introduction to VI/VIM Text Editor
@@ -34,16 +34,16 @@
 To Use VIM Text Editor type ```vim file```
 
 ---
-Normal to Command use :
-Command to Normal use esc
+: = Command
 
 ---
-Normal to Insert use i a o
-Insert to Normal use esc
+i - a - o = Insert
 
 ---
-Normal to Visual use v
-Visual to Normal use esc
+v = Visual
+Shift + v = Visual Line Mode
+Crtl + v = Visual Block Mode
+Shift + i = Switch to Insert with the selection
 
 ## Vim Commands
 
@@ -61,3 +61,34 @@ Visual to Normal use esc
 | Command | :s/first/second/g  | To replace the words in line<br>same as sed command |
 | Command | :%s/first/second/g | To replace the word<br>in whole file                |
 | Normal  | x                  | Delete                                              |
+| Visual  | d                  | Cut                                                 |
+| Visual  | y                  | Copy                                                |
+| Visual  | p                  | Paste                                               |
+| Normal  | /                  | Search                                              |
+| Command | :w Name            | Save as                                             |
+| Command | :new File_Name     | New window                                          |
+| Normal  | Crtl + ww          | Next Window                                         |
+| Command | :vsplit File_Name  | Vertical Window                                     |
+| Command | :tabnew File_Name  | New Tab                                             |
+| Command | :set nu            | Number                                              |
+| Command | :tabnext           | Next tab                                            |
+| Normal  | Shift + g          | Last Line                                           |
+| Normal  | gg                 | First Line                                          |
+``` 
+vimdiff file1 file2
+```
+
+| Command  |
+| -------- |
+| :diffput |
+| :diffget |
+# Compression Tools
+- Compressing file is a solution to reduce space occupied by a file on disk.
+- Also it is a solution to reduce amount of data shared network.
+ The most popular tools foe compression available in Linux:
+ - Gzip
+ - Bzip2
+- zipx
+- 7zip
+
+	
