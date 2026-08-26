@@ -1,4 +1,5 @@
 # Commands
+#session4commands 
 
 | **Command**                              | **Work**                                           |     |
 | ---------------------------------------- | -------------------------------------------------- | --- |
@@ -88,7 +89,8 @@ Standard Output
 >[!tip] If you redirect another command to a file that has data in it, the data will disappeared.So you can use >> to keep your previous data.
 
 
-
+[[Session 3|Previous Session]]
+[[Session 5|Next Session]]
 
 
 
