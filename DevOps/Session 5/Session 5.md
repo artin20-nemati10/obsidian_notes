@@ -1,4 +1,4 @@
-[^1]#session5commands 
+#session5commands 
 
 |               Command               |                        Work                         |
 | :---------------------------------: | :-------------------------------------------------: |
@@ -23,6 +23,7 @@
 |    ***grep "^root" file name***     |   *search the word of the beginning of the line*    |
 |         ***grep "root$"***          |              *At the end of the line*               |
 |        ***egrep "CBd#@&$"***        |      *Make the special characters to regular*       |
+|         ***touch file 1***          |               *Create an empty file*                |
 >[!tip] you can use some unique characters that is not in your text as a delimiter of sed
 
 # Introduction to VI/VIM Text Editor

@@ -1,3 +1,4 @@
+#python_code
 ```
 import tkinter as tk
 import math

@@ -1,4 +1,4 @@
-
+#python_code
 ```
 import pygame
 import random
