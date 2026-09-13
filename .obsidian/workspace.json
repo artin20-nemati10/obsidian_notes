@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Session 1/Session 1.md",
+                "file": "DevOps/Session 7/Session 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 1"
+              "title": "Session 7"
             }
           },
           {
@@ -213,6 +213,9 @@
   },
   "active": "d120bd39a8d9d0e4",
   "lastOpenFiles": [
+    "DevOps/Session 1/Session 1.md",
+    "DevOps/Session 7/Session 7.md",
+    "DevOps/Session 7",
     "DevOps/UntW3school.md",
     "DevOps/Session 6/Session 6.md",
     "DevOps/Session 4/Session 4.md",
@@ -240,12 +243,10 @@
     "Germany/Duolingo/Section 1/Unit 4.md",
     "Germany/Duolingo/Section 1/Unit 3.md",
     "Germany/Duolingo/Section 1/Unit 2.md",
-    "Germany/Duolingo/Section 1/Unit 1.md",
     "DevOps/Session 6",
     "Germany/Duolingo/Section 1",
     "Germany/Duolingo",
     "Germany",
-    "DevOps/تفاوت Bash،Shell و Zsh در لینوکس چیست؟.md",
     "DevOps/Session 5",
     "Python/Images/tree_small.png",
     "Python/Codes/Untitled",
@@ -255,7 +256,6 @@
     "Python/Images/car_blue_3.png",
     "Python/Images/car_red_3.png",
     "Python/Codes",
-    "Python",
     "Network +/Images/Bus Topology_2.png",
     "Network +/Images/Tree Topology.png",
     "Network +/Images/Tree Topology 1.png"
