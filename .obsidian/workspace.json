@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Session 7/Session 7.md",
+                "file": "DevOps/Session 8/Session 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 7"
+              "title": "Session 8"
             }
           },
           {
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a96e2404664ef706",
@@ -214,17 +213,19 @@
   },
   "active": "d120bd39a8d9d0e4",
   "lastOpenFiles": [
-    "Screenshot from 2026-09-16 10-32-28.png",
-    "DevOps/Session 6/Session 6.md",
     "DevOps/Session 7/Session 7.md",
+    "DevOps/Session 6/Session 6.md",
+    "DevOps/Session 5/Session 5.md",
+    "DevOps/Session 4/Session 4.md",
+    "DevOps/Session 3/Session 3.md",
+    "DevOps/Session 2/Session 2.md",
     "DevOps/Session 1/Session 1.md",
+    "DevOps/Session 8/Session 8.md",
+    "DevOps/Session 8",
+    "Screenshot from 2026-09-16 10-32-28.png",
     "DevOps/Session 7",
     "DevOps/UntW3school.md",
-    "DevOps/Session 4/Session 4.md",
-    "DevOps/Session 2/Session 2.md",
     "DevOps/Commands.md",
-    "DevOps/Session 3/Session 3.md",
-    "DevOps/Session 5/Session 5.md",
     "DevOps/Session 6/Permissions Bianary.png",
     "DevOps/Session 6/Permissions 2.png",
     "DevOps/Session 6/Permissions.png",
@@ -256,9 +257,7 @@
     "Python/Images/land_grass.png",
     "Python/Images/car_blue_3.png",
     "Python/Images/car_red_3.png",
-    "Python/Codes",
     "Network +/Images/Bus Topology_2.png",
-    "Network +/Images/Tree Topology.png",
-    "Network +/Images/Tree Topology 1.png"
+    "Network +/Images/Tree Topology.png"
   ]
 }
