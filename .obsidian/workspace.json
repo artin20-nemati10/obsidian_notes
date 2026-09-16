@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a96e2404664ef706",
@@ -187,8 +188,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -213,11 +214,12 @@
   },
   "active": "d120bd39a8d9d0e4",
   "lastOpenFiles": [
-    "DevOps/Session 1/Session 1.md",
+    "Screenshot from 2026-09-16 10-32-28.png",
+    "DevOps/Session 6/Session 6.md",
     "DevOps/Session 7/Session 7.md",
+    "DevOps/Session 1/Session 1.md",
     "DevOps/Session 7",
     "DevOps/UntW3school.md",
-    "DevOps/Session 6/Session 6.md",
     "DevOps/Session 4/Session 4.md",
     "DevOps/Session 2/Session 2.md",
     "DevOps/Commands.md",
@@ -242,7 +244,6 @@
     "504 Essential Words/Lesson 2.md",
     "Germany/Duolingo/Section 1/Unit 4.md",
     "Germany/Duolingo/Section 1/Unit 3.md",
-    "Germany/Duolingo/Section 1/Unit 2.md",
     "DevOps/Session 6",
     "Germany/Duolingo/Section 1",
     "Germany/Duolingo",
