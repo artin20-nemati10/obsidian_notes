@@ -260,3 +260,10 @@ $ scp artin@192.168.1.10:/tmp/dir1/test.txt /root/dir2
 | put \<file>     | Upload local file to the current remote dir.               |
 | mput \<files>   | Upload multiple local files to current remote directory.   |
 | exit            | Close connection to SSH server and exit.                   |
+# Connect to a Sever without Password
+- Using PubKeyAuthentication instead of PasswordAuthentication.
+```
+$ ssh-keygen
+$ ssh-copy-id ububntu@host-2
+$ ssh ubuntu@host-2
+```
