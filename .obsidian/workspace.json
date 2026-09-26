@@ -45,7 +45,8 @@
               "title": "Session 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,7 +236,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "42ee1abae69ef366",
+  "active": "02e764aeb6f3d65b",
   "lastOpenFiles": [
     "Scripts/Shell/Progress Bar 2 Versions.md",
     "DevOps/Session 1/Session 1.md",
