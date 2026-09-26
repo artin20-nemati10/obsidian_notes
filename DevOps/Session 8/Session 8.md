@@ -140,17 +140,17 @@ $ traceroute6 ::1
 ---
 ## Display Current Network Connections -netstat
 
-| Options           | Description                                                 |
-| ----------------- | ----------------------------------------------------------- |
-| -p , --program    | Display PID & name of program to which each socket belongs. |
-| -e , --extend     | Display additional information.                             |
-| -n , --numeric    | Do not resolve hostnames or portnames.                      |
-| -t , --tcp        | Display active TCP connections.                             |
-| -u , --udp        | Display active UDP connections.                             |
-| -a , --all        | Display all listening & non-listening sockets.              |
-| -l , --listening  | Display only listening sockets.                             |
-| -i , --interfaces | Display all network interfaces.                             |
-| -r , --route      | Display routing tables (netstat -rn = route -n)             |
+|      Options      |                         Description                         |
+|:-----------------:|:-----------------------------------------------------------:|
+|  -p , --program   | Display PID & name of program to which each socket belongs. |
+|   -e , --extend   |               Display additional information.               |
+|  -n , --numeric   |           Do not resolve hostnames or portnames.            |
+|    -t , --tcp     |               Display active TCP connections.               |
+|    -u , --udp     |               Display active UDP connections.               |
+|    -a , --all     |       Display all listening & non-listening sockets.        |
+| -l , --listening  |               Display only listening sockets.               |
+| -i , --interfaces |               Display all network interfaces.               |
+|   -r , --route    |       Display routing tables (netstat -rn = route -n)       |
 
 ```
 $ netstat -pentual
@@ -247,19 +247,19 @@ $ scp artin@192.168.1.10:/tmp/dir1/test.txt /root/dir2
 ---
 ## Transfet Files between Servers (SFTP)
 
-| SFTP Command    | Description                                                |
-| --------------- | ---------------------------------------------------------- |
-| pwd             | Display current remote directory.                          |
-| lpwd            | Display current local directory.                           |
-| cd \<dir-name>  | Change current remote directory.                           |
-| lcd \<dir-name> | Change current local directory.                            |
-| ls              | List files in current remote directory.                    |
-| lls             | List files in current local directory.                     |
-| get \<file>     | Download \<file> from current remote to current local dir. |
-| mget \<files>   | Download multiple files.                                   |
-| put \<file>     | Upload local file to the current remote dir.               |
-| mput \<files>   | Upload multiple local files to current remote directory.   |
-| exit            | Close connection to SSH server and exit.                   |
+|  SFTP Command   |                        Description                         |
+|:---------------:|:----------------------------------------------------------:|
+|       pwd       |             Display current remote directory.              |
+|      lpwd       |              Display current local directory.              |
+| cd \<dir-name>  |              Change current remote directory.              |
+| lcd \<dir-name> |              Change current local directory.               |
+|       ls        |          List files in current remote directory.           |
+|       lls       |           List files in current local directory.           |
+|   get \<file>   | Download \<file> from current remote to current local dir. |
+|  mget \<files>  |                  Download multiple files.                  |
+|   put \<file>   |        Upload local file to the current remote dir.        |
+|  mput \<files>  |  Upload multiple local files to current remote directory.  |
+|      exit       |          Close connection to SSH server and exit.          |
 # Connect to a Sever without Password
 - Using PubKeyAuthentication instead of PasswordAuthentication.
 ```

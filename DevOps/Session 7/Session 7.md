@@ -56,14 +56,14 @@ $ top
 ```
 ###### Output fields of the ps -f command:
 
-| Word  | Meaning                                        |
-| ----- | ---------------------------------------------- |
-| UID   | Owning user                                    |
-| PID   | Unique Process ID                              |
-| PPID  | Parent Process Id                              |
-| STIME | When the task started                          |
-| TIME  | How ling the task has been active              |
-| CMD   | The actual command line used to start the task |
+| Word  |                    Meaning                     |
+|:-----:|:----------------------------------------------:|
+|  UID  |                  Owning user                   |
+|  PID  |               Unique Process ID                |
+| PPID  |               Parent Process Id                |
+| STIME |             When the task started              |
+| TIME  |       How ling the task has been active        |
+|  CMD  | The actual command line used to start the task |
 
 ---
 # Linux Boot Process
@@ -74,14 +74,14 @@ $ top
 5. Init Process : Executes runlevel programs 
 6. Runlevel:
 
-| 0   | Shutdown                                  |
-| --- | ----------------------------------------- |
-| 1   | Single user without network , Single user |
-| 2   | Multi user without network, Multi user    |
-| 3   | Multi user target, Multi user             |
-| 4   | Reserve                                   |
-| 5   | Graphical target, Multi user              |
-| 6   | Reboot                                    |
+|  0  |                 Shutdown                  |
+|:---:|:-----------------------------------------:|
+|  1  | Single user without network , Single user |
+|  2  |  Multi user without network, Multi user   |
+|  3  |       Multi user target, Multi user       |
+|  4  |                  Reserve                  |
+|  5  |       Graphical target, Multi user        |
+|  6  |                  Reboot                   |
 # Linux kill signals
 - Signals are used to manage processes in Linux.
 - Software must also have a number of signal handlers designed to communicate with Linux signals.

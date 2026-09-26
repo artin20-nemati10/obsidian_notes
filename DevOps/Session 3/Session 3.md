@@ -29,16 +29,16 @@
 |       ***sudo***        |          *as Super Admin*           |
 ### LS
 
-| **Option** | **Work**                       |
-| ------------ | -------------------------------- |
-| ***ls***     | *files in the current directory* |
-| ***-l***     | *Just more information*          |
-| ***-h***     | *Make it Humen-readable*         |
-| ***-a***     | *All files*                      |
-| ***-t***     | *Sort by time*                   |
-| ***-r***     | *Reverse the sort*               |
-| ***-S***     | *Sort by size*                   |
-| ***-lrth***  | *---*                            |
+| **Option**  |             **Work**             |
+|:-----------:|:--------------------------------:|
+|  ***ls***   | *files in the current directory* |
+|  ***-l***   |     *Just more information*      |
+|  ***-h***   |     *Make it Humen-readable*     |
+|  ***-a***   |           *All files*            |
+|  ***-t***   |          *Sort by time*          |
+|  ***-r***   |        *Reverse the sort*        |
+|  ***-S***   |          *Sort by size*          |
+| ***-lrth*** |              *---*               |
 
 [[Commands]]
 

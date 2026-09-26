@@ -1,4 +1,15 @@
 [
   "obsidian-git",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "simple-colored-folder",
+  "obsidian-icon-folder",
+  "file-explorer-note-count",
+  "omnisearch",
+  "better-export-pdf",
+  "pretty-properties",
+  "dataview",
+  "table-editor-obsidian",
+  "obsidian-style-settings",
+  "obsidian-linter",
+  "templater-obsidian"
 ]

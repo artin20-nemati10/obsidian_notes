@@ -13,12 +13,12 @@
 >[!tip] to download a file use ```wget URL```
 
 
-| Command dpkg ... | Work                                               |
-| ---------------- | -------------------------------------------------- |
-| -l               | For listing all files installed by the package     |
-| -s               | For getting status of installed and not installed  |
-| -P               | for uninstalling completely of package from system |
-| -i               | For installing a package                           |
+| Command dpkg ... |                        Work                        |
+|:----------------:|:--------------------------------------------------:|
+|        -l        |   For listing all files installed by the package   |
+|        -s        | For getting status of installed and not installed  |
+|        -P        | for uninstalling completely of package from system |
+|        -i        |              For installing a package              |
 
 ## Advanced packaging Tool (APT)
 - APT tools like YUM are one of the package management tools in Debian family.
@@ -26,53 +26,53 @@
 - The .deb files downloaded from APT will be saved in /var/cache/apt/archives/
 - The meta data caches of APT update command will be saved in /car/lib/apt/lists/
 
-| Command apt ...                 | work                           |
-| ------------------------------- | ------------------------------ |
-| update                          | Update the repository          |
-| upgrade                         | Upgrade the installed packages |
-| dist-upgrade                    | Upgrade the version of OS      |
-| full-upgrade                    | Upgrade all things             |
-| remove package                  | Remove the package             |
-| purge                           | Remove the package compeletly  |
-| list --installed                | List of the installed apps     |
-| do-release-upugrade             | Upgrade the version of the ltc |
-| install package --download-only | ---                            |
+|         Command apt ...         |              work              |
+|:-------------------------------:|:------------------------------:|
+|             update              |     Update the repository      |
+|             upgrade             | Upgrade the installed packages |
+|          dist-upgrade           |   Upgrade the version of OS    |
+|          full-upgrade           |       Upgrade all things       |
+|         remove package          |       Remove the package       |
+|              purge              | Remove the package compeletly  |
+|        list --installed         |   List of the installed apps   |
+|       do-release-upugrade       | Upgrade the version of the ltc |
+| install package --download-only |              ---               |
 ## Manage Groups in Linux
 
-| # Command                                                | Work             |
-| -------------------------------------------------------- | ---------------- |
-| groupadd -g \[Group Id\] \[Group Name\]                  | Creating a group |
-| groupdel \[Group Name\]                                  | Delete a group   |
-| groupmod -g \[GID\] -n \[New Group Name\] \[Group Name\] | Modify a group   |
+|                        # Command                         |       Work       |
+|:--------------------------------------------------------:|:----------------:|
+|         groupadd -g \[Group Id\] \[Group Name\]          | Creating a group |
+|                 groupdel \[Group Name\]                  |  Delete a group  |
+| groupmod -g \[GID\] -n \[New Group Name\] \[Group Name\] |  Modify a group  |
 
 ---
 
-| File         | Content                     |
-| ------------ | --------------------------- |
-| /etc/group   | List of all groups          |
-| /etc/passwd  | List of all users           |
+|     File     |           Content           |
+|:------------:|:---------------------------:|
+|  /etc/group  |     List of all groups      |
+| /etc/passwd  |      List of all users      |
 | /etc/shadow  | List of all users password  |
 | /etc/gshadow | List of all groups password |
 
 ## User Account Management in Linux
 
-| # Command                           | work                                 |
-| ----------------------------------- | ------------------------------------ |
-| useradd -m                          | Give the user home                   |
-| useradd -g Group                    | Primary Group                        |
-| useradd -c "Artin Nemati"           | Comment                              |
-| useradd -s Bash                     | Bash (/bin/bash)                     |
-| useradd -u                          | UID                                  |
-| useradd -p                          | Password                             |
-| userdel                             | Delete the user                      |
-| usermod -g 4000 -c "Mew"            | Modify the user                      |
+|              # Command              |                 work                 |
+|:-----------------------------------:|:------------------------------------:|
+|             useradd -m              |          Give the user home          |
+|          useradd -g Group           |            Primary Group             |
+|      useradd -c "Artin Nemati"      |               Comment                |
+|           useradd -s Bash           |           Bash (/bin/bash)           |
+|             useradd -u              |                 UID                  |
+|             useradd -p              |               Password               |
+|               userdel               |           Delete the user            |
+|      usermod -g 4000 -c "Mew"       |           Modify the user            |
 | usermod -G DevOps,Cloud,Infra Artin | Rewrite the user to secondary groups |
-| usermod -a                          | Append                               |
-| usermod -aG ...                     | Append the Groups to previous groups |
-| chage -l artin                      | Change age                           |
-| chage -m                            | Change the Minimum Day password      |
-| chage -M                            | Change the Maximum Day pasword       |
-| chage -d                            | Expire time for Password             |
+|             usermod -a              |                Append                |
+|           usermod -aG ...           | Append the Groups to previous groups |
+|           chage -l artin            |              Change age              |
+|              chage -m               |   Change the Minimum Day password    |
+|              chage -M               |    Change the Maximum Day pasword    |
+|              chage -d               |       Expire time for Password       |
 
 ## Linux Permission Levels
 
@@ -107,12 +107,12 @@
 ## Change User/Group Ownership
 
 
-| Command                      | Work                              |
-| ---------------------------- | --------------------------------- |
+|           Command            |               Work                |
+|:----------------------------:|:---------------------------------:|
 | chown artin:DevOps test file | change the owner ship of the file |
-| chgrp                        | Change Group                      |
-| chown -R                     | Recesive                          |
-| chown -v                     | Verbose                           |
+|            chgrp             |           Change Group            |
+|           chown -R           |             Recesive              |
+|           chown -v           |              Verbose              |
 
 ---
 

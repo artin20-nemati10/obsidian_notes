@@ -60,7 +60,7 @@ Sprint 2
 12. Release
 13. Repeats
 
-| _Advantages_                                                           |
+| **Advantages**                                                         |
 | ---------------------------------------------------------------------- |
 | Customer requirements are more clear beacause of the constant feedback |
 | Product is delivered much faster as compared to Waterfall model        |
@@ -81,15 +81,15 @@ Sprint 2
 **DevOps addressed the gap between Developers & Operation**
 
 
-|   ***Develop***    |  ***DevOps***   | ***Infrastructure*** |
-| :------------: | :---------: | :--------------: |
-|   *Frontend*   |    *SRE*    |    *SysAdmin*    |
-|   *Backend*    |  *DevNet*   | *Virtualization* |
-|   *Test QA*    | *DevSecOps* |    *Network*     |
-| *Scrum master* |             |    *Security*    |
-| *Project mgr*  |             |      *Noc*       |
-| *Product mgr*  |             |    *DB Admin*    |
-|                |             |   *Cloud Eng*    |
+| ***Develop***  | ***DevOps*** | ***Infrastructure*** |
+|:--------------:|:------------:|:--------------------:|
+|   *Frontend*   |    *SRE*     |      *SysAdmin*      |
+|   *Backend*    |   *DevNet*   |   *Virtualization*   |
+|   *Test QA*    | *DevSecOps*  |      *Network*       |
+| *Scrum master* |              |      *Security*      |
+| *Project mgr*  |              |        *Noc*         |
+| *Product mgr*  |              |      *DB Admin*      |
+|                |              |     *Cloud Eng*      |
 *SRE = Site Reliability Engeneer*
 ## DevOps Pipeline
 

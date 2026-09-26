@@ -48,33 +48,33 @@ Shift + i = Switch to Insert with the selection
 
 ## Vim Commands
 
-| Space   | Command            | Work                                                |
-| ------- | ------------------ | --------------------------------------------------- |
-| Insert  | Text               | ---                                                 |
-| Command | :w                 | Save                                                |
-| Command | :q!                | Quit <br>without saving                             |
-| Command | :wq!               | Quit And Save                                       |
-| Normal  | u                  | Undo                                                |
-| Normal  | R                  | Redo                                                |
-| Normal  | dd                 | Cut                                                 |
-| Normal  | p                  | Paste                                               |
-| Normal  | y                  | Copy                                                |
+|  Space  |      Command       |                        Work                         |
+|:-------:|:------------------:|:---------------------------------------------------:|
+| Insert  |        Text        |                         ---                         |
+| Command |         :w         |                        Save                         |
+| Command |        :q!         |               Quit <br>without saving               |
+| Command |        :wq!        |                    Quit And Save                    |
+| Normal  |         u          |                        Undo                         |
+| Normal  |         R          |                        Redo                         |
+| Normal  |         dd         |                         Cut                         |
+| Normal  |         p          |                        Paste                        |
+| Normal  |         y          |                        Copy                         |
 | Command | :s/first/second/g  | To replace the words in line<br>same as sed command |
-| Command | :%s/first/second/g | To replace the word<br>in whole file                |
-| Normal  | x                  | Delete                                              |
-| Visual  | d                  | Cut                                                 |
-| Visual  | y                  | Copy                                                |
-| Visual  | p                  | Paste                                               |
-| Normal  | /                  | Search                                              |
-| Command | :w Name            | Save as                                             |
-| Command | :new File_Name     | New window                                          |
-| Normal  | Crtl + ww          | Next Window                                         |
-| Command | :vsplit File_Name  | Vertical Window                                     |
-| Command | :tabnew File_Name  | New Tab                                             |
-| Command | :set nu            | Number                                              |
-| Command | :tabnext           | Next tab                                            |
-| Normal  | Shift + g          | Last Line                                           |
-| Normal  | gg                 | First Line                                          |
+| Command | :%s/first/second/g |        To replace the word<br>in whole file         |
+| Normal  |         x          |                       Delete                        |
+| Visual  |         d          |                         Cut                         |
+| Visual  |         y          |                        Copy                         |
+| Visual  |         p          |                        Paste                        |
+| Normal  |         /          |                       Search                        |
+| Command |      :w Name       |                       Save as                       |
+| Command |   :new File_Name   |                     New window                      |
+| Normal  |     Crtl + ww      |                     Next Window                     |
+| Command | :vsplit File_Name  |                   Vertical Window                   |
+| Command | :tabnew File_Name  |                       New Tab                       |
+| Command |      :set nu       |                       Number                        |
+| Command |      :tabnext      |                      Next tab                       |
+| Normal  |     Shift + g      |                      Last Line                      |
+| Normal  |         gg         |                     First Line                      |
 ``` 
 vimdiff file1 file2
 ```

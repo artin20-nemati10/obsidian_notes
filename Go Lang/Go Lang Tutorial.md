@@ -59,11 +59,11 @@ fmt.Printf("some text %s with variable \n", my variable)
 - Plus some annotation verbs or (place holder) that tells the fmt functions how to format the variable passed in.
 
 
-| Place holder | Work                     |
-| ------------ | ------------------------ |
-| %s           | For Variables            |
-| %v           | For Variables            |
-| %T           | For type of the variable |
+| Place holder |           Work           |
+|:------------:|:------------------------:|
+|      %s      |      For Variables       |
+|      %v      |      For Variables       |
+|      %T      | For type of the variable |
 
 
 ## 2 Basic Data Types

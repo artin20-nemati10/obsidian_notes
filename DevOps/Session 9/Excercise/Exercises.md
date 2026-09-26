@@ -1,5 +1,5 @@
 # Exercise 1: 
-###### Write a program that takes a number from the input, compares it to 10, and returns a message for each of the 3 modes (larger, equal, and smaller).
+#### Write a program that takes a number from the input, compares it to 10, and returns a message for each of the 3 modes (larger, equal, and smaller).
 ---
 ```
 #!/bin/bash

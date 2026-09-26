@@ -30,7 +30,7 @@ $ vim script1/sh
 ###### In a script, you can define and use a variable in the same way.
 ---
 ```
-$ vi script2.sh
+$ vim script2.sh
 
 #!/bin/bash
 MYNAME="Artin"
@@ -97,7 +97,7 @@ fi
 ## COnditioning (if)
 
 |     Expression     |                 Meaning                 | Operator |
-| :----------------: | :-------------------------------------: | :------: |
+|:------------------:|:---------------------------------------:|:--------:|
 | STRING1 = STRING2  |           Strings are equal.            |    =     |
 | STRING1 != STRING2 |         Strings are not equal.          |    ≠     |
 |     -n STRING1     | String1 has a length greater than zero. |          |
