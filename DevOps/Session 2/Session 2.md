@@ -44,6 +44,6 @@
 |       *Chef*       |                                |
 |    *Soul Stack*    |                                |
 |    *CF Engine*     |                                |
-[[DevOps/Session 1/Session 1| Previous session]]
+[[Session 1| Previous session]]
 
 [[Session 3|Next Session]]
