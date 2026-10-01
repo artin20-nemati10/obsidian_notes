@@ -1,5 +1,5 @@
 #python_code
-```
+```python
 import tkinter as tk
 import math
 from tkinter import *

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Session 10/Session 10.md",
-                "mode": "preview",
+                "file": "Network +/Network Session 1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 10"
+              "title": "Network Session 1"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a96e2404664ef706",
@@ -214,9 +213,18 @@
   },
   "active": "42ee1abae69ef366",
   "lastOpenFiles": [
+    "DevOps/Session 9/Excercise/Exercises.md",
+    "Personal",
     "DevOps/Session 9/Session 9.md",
-    "DevOps/0_PDFs/01.Slides/Topic02-Linux Administration.pdf",
     "DevOps/Session 10/Session 10.md",
+    "Projects/Shell/Back up.md",
+    "Projects/Shell/IP Validation.md",
+    "Projects/Shell/Progress Bar 2 Versions.md",
+    "Projects/Python/Codes/Inventory Management.md",
+    "Projects/Python/Codes/Dictionary.md",
+    "Projects/Python/Codes/Calculator.md",
+    "Projects/Go Lang/Go Lang Tutorial.md",
+    "DevOps/0_PDFs/01.Slides/Topic02-Linux Administration.pdf",
     "DevOps/0_PDFs/01.Slides/Topic01-DevOps Fundamentals.pdf",
     "DevOps/0_PDFs/Untitled.md",
     "Topic02-Linux Administration.pdf",
@@ -229,34 +237,25 @@
     "DevOps/0_PDFs/01.Slides/Topic06-Learning Ansible.pdf",
     "DevOps/0_PDFs/01.Slides/Topic05-Kubernetes Administration.pdf",
     "DevOps/0_PDFs/01.Slides/Topic04-Docker Administration.pdf",
-    "DevOps/0_PDFs/01.Slides/Topic03-Git Basics.pdf",
     "DevOps/Session 8/Session 8.md",
     "Pasted image 20261001083604.png",
     "Pasted image 20261001083344.png",
     "Pasted image 20261001083140.png",
     "DevOps/Session 3/Session 3.md",
-    "Other/Usual Notes/Commands.md",
+    "Personal/Usual Notes/Commands.md",
     "Other/Sites/Usufull Sites.md",
-    "Scripts/Shell/Progress Bar 2 Versions.md",
     "DevOps/Session 1/Session 1.md",
-    "Scripts/Shell/IP Validation.md",
-    "Scripts/Shell/Back up.md",
-    "Other/Usual Notes/تفاوت Bash،Shell و Zsh در لینوکس چیست؟.md",
+    "Personal/Usual Notes/تفاوت Bash،Shell و Zsh در لینوکس چیست؟.md",
     "Scripts/Shell/Untitled.md",
     "Scripts/Untitled.canvas",
-    "DevOps/Session 9/Excercise/Exercises.md",
     "DevOps/Session 8/Screenshot from 2026-09-16 10-32-28.png",
     "Speaking Languages/504 Essential Words/Lesson 1.md",
     "Speaking Languages/Germany/Duolingo/Section 1/Unit 4.md",
     "Speaking Languages/Germany/Duolingo/Section 1/Unit 3.md",
     "Speaking Languages/Germany/Duolingo/Section 1/Unit 2.md",
     "Speaking Languages/Germany/Duolingo/Section 1/Unit 1.md",
-    "Other/Usual Notes/Symbols.md",
-    "Other/Usual Notes/Contractions.md",
-    "Scripts/Go Lang/Go Lang Tutorial.md",
-    "DevOps/Session 7/Session 7.md",
-    "DevOps/Session 6/Session 6.md",
-    "DevOps/Session 5/Session 5.md",
+    "Personal/Usual Notes/Symbols.md",
+    "Personal/Usual Notes/Contractions.md",
     "DevOps/Session 6/Permissions Bianary.png",
     "DevOps/Session 6/Permissions 2.png",
     "DevOps/Session 6/Permissions.png"

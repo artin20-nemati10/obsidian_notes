@@ -1,5 +1,5 @@
 #python_code
-```
+```python
 import pandas as pd
 
 import tkinter as tk

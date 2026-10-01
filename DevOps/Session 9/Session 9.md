@@ -4,7 +4,7 @@
 ## Defining a Function in Linux
 ###### Defin e functions in Linux for analysing and processing variables:
 ---
-```
+```bash
 $ FUNCTION_NAME()
 {
 [ACTION1]
@@ -17,7 +17,7 @@ $ FUNCTION_NAME()
 - Shebang basically represents the programming languagein which the script is written.
 - File extentions are just a label and type of language specified by shebang.
 ---
-```
+```bash
 $ vim script1/sh
 
 #!/bin/bash
@@ -29,7 +29,7 @@ $ vim script1/sh
 ###### In the Shell environmet, a variable can be find as VARIABLE="value".
 ###### In a script, you can define and use a variable in the same way.
 ---
-```
+```bash
 $ vim script2.sh
 
 #!/bin/bash
@@ -40,21 +40,21 @@ MYNAME="Artin"
 - To use the result of one statement in another statement or as a variable, the command must be used inside  a $(COMMAND) or \`COMMAND\` (Backtick).
 - Using the Tee command, a stdout can be displayed bot in screen and redirect in a file.
 ---
-```
+```bash
 $ date | tee output.txt
-- - - - - - -
 ```
+---
 ## Performing Math
 ###### Using expr or $\[], math operatoins can be performed in Bash environment.
 ---
-```
+```bash
 $ expr 3 \* 7
 ```
 ---
 ## Bash Calculator
 ###### Float calculations are performed using the bc command: 
 ---
-```
+```bash
 $ bc
 >12.35644 * 64.7814
 ...
@@ -64,7 +64,7 @@ $ bc
 ## Redirecting Input & Output using EOF
 ###### The EOF tool is used to redirect multiple lines of text or commands into another command.
 ---
-```
+```bash
 $ wc << EOF
 >
 >
@@ -79,7 +79,7 @@ $ cat >> names.txt << EOF
 - The easiest way to use the condition is if.
 - Using else in thes type of condition is optional.
 ---
-```
+```bash
 if [ EXPRESSION1 ]
 then
 	COMMAND1
@@ -143,7 +143,7 @@ fi
 ---
 ## Conditioning (if)
 ###### Write programthat takes two numbers from the input and compares them in size.
-```
+```bash
 artin@host:~$ vi script6.sh
 	#!/bin/bash
 	read -p "Please enter first number: " var1
@@ -161,7 +161,7 @@ artin@host:~$ vi script6.sh
 ---
 ## Conditioning (if)
 - Write a program that takes an IP from the input and checks whether the server in Pingable or sends an Email to the root user if the server is down.
-```
+```bash
 artin@host:~$ vi script7.sh
 	#!/bin/bash
 	read -p "Please Enter Your IP: " IP
@@ -183,7 +183,7 @@ artin@host:~$ vi script7.sh
 -  {0..10..2}(Range of numbers from 0 to 10 with space of 2)
 - $(seq 0 2 10) (Range of numbers from 0 to 10 with space of 2)
 
-```
+```bash
 for VAR in LIST;
 do
 	COMMAND1
@@ -192,7 +192,7 @@ done
 ```
 ---
 ## Loops (for)
-```
+```bash
 artin@host:~$ vi script8.sh
 	#!/bin/bash
 	for i in {1..5}
@@ -209,7 +209,7 @@ arash@host:~$ ./script8.sh
 ---
 ## Loops (while)
 ---
-```
+```bash
 while [ CONDITION ]
 do
 	COMMAND1
@@ -218,7 +218,7 @@ done
 ---
 - While is used to execute a set of commands as long as the condition is met.
 ---
-```
+```bash
 artin@host:~$ vi script7.sh
 	#!/bin/bash
 	MYVAR=3
@@ -231,7 +231,7 @@ artin@host:~$ vi script7.sh
 ---
 ## Loops (while)
 - Write a script that takes two numbers from the input and compares them, and this program is such that if the values of the two numbers were empty, it still wants the value and does not exit the program until it enters the value.
-```
+```bash
 artin@host:~$ vi script7.sh
 ???
 ???

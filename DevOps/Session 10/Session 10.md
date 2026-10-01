@@ -19,7 +19,7 @@
 - We have two types of Crontabs, one for each user and one system-wide.
 ###### The crontab file can be edited using the Crontab command and its options.
 ---
-```
+```bash
 ~ Crontab -e --> To edit or build Crontab for the first time.
 ~ Crontab -l --> View the contents of the Crontab file.
 ~ Crontab -r --> To remove the Crontab file.
@@ -80,7 +80,7 @@
 - By entering at command and the desired date and time, it enters an interactive environment to enter commands.
 - Then press Crtl + D to exit the environment and schedule the commands foe desire date.
 ---
-```
+```bash
 artin@host:~$ at 8:35 Apr 10
 at> touch BlaHBlaH
 at> <EOT>
@@ -124,14 +124,14 @@ job 2 at Mon Apr 10 08:35:00 2021
 ## Git Installation
 ### Installing Git on Linux
 ###### installing git on servers:
-```
+```bash
 root@host:~# apt install git
 root@host:~# git --version
 git version 2.30.2
 ```
 ---
 ###### Global username is because to isdentify yourself when making changes on repositories.
-```
+```bash
 root@host:~# git config --global user.name "Arash Foroughi"
 root@host:~# git config --global user.email "arash@localhost"
 root@host:~# cat ~/.gitconfig
@@ -139,25 +139,25 @@ root@host:~# cat ~/.gitconfig
 ---
 ## Git Basic Configureations
 #### Local Configuration
-```
+```bash
 $ cat .git/config
 ```
 - local configs are only available for the current project and stored in .git/config in the project's directory.
 ---
 #### Global Configuration
-```
+```bash
 $ cat ~/.gitconfig
 ```
 - global configs are available for all projects forthe current user and stored in ~/.gitconfig.
 ---
 #### System-level Configuration
-```
+```bash
 $ cat /etc/gitconfig
 ```
 - System config applies to the entire system for all users & projects and stored in /etc/gitconfig.
 ---
 ## git Basic Configurations
-```
+```bash
 root@host:~# git config --system system.name "git repo server-1"
 root@host:~# git config --system user.name "Arash Foroughi"
 user@host:~$ git config --global system.name "my repo server-1"
@@ -177,7 +177,7 @@ user@host:~$ cat ~/.gitconfig
 ## Empty Repository
 #### Create Our First local Repo
 ##### Step-1: use git init command to initializae a location as git repository:
-```
+```bash
 artin@host:~$ mkdir gittest
 artin@host:~$ cd gittest
 artin@host:~$ git init
@@ -194,7 +194,7 @@ artin@host:~$ ls -l
 ```
 ---
 ##### Step-2: Create files in repo needed to be tracked by fit and then use git add:
-```
+```bash
 artin@host:~$ git status
 	On branch master
 	No commits yet
@@ -214,7 +214,7 @@ artin@host:~$ git status
 ```
 ---
 ##### Step-3:use git commit to finalize your changes as the last version:
-```
+```bash
 artin@host:~$ git commit -m "This is my first git file"
 	[master (root-commit) e74c7da] This is my first git file
 	1 file changed, 1 insertion(+)
@@ -240,7 +240,7 @@ artin@host:~$ git status
 
 ---
 #### Example of adding & removing files to a git repository:
-```
+```bash
 artin@host:~$ mkdir source; cd source; tar -zxvf source.tar.gz
 
 artin@host:~$ git init; git status
